@@ -83,7 +83,7 @@ const Cards = () => {
     }
 
     return(<div>
-        Top Trump Card: 
+        Top Trump Card : 
         <select onChange={onChangeCardTypeHandler} value={cardType}>
             <option value="select">Select</option>
             <option value="people">People</option>
